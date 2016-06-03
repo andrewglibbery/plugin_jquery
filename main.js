@@ -1,4 +1,8 @@
 $(".animsition").animsition({
-	inClass: 'rotate-in-lg',
-    outClass: 'rotate-out-lg'
-	});
+  inClass: 'fade-in-right-lg',
+  outClass: 'fade-out-right-lg',
+  linkElement: 'header a',
+  inDuration: 1000,
+  outDuration: 500
+});
+
