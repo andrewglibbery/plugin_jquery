@@ -346,3 +346,10 @@ footer {
   background-color: black;
 }
 
+.is-sticky #projectHelp {
+  background-color: white;
+  opacity: 1;
+  margin-top: 63px;
+}
+
+

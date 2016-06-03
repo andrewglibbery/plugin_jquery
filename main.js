@@ -15,3 +15,13 @@ $('.header').on('sticky-start', function() {
 $('.header').on('sticky-end', function() {
 	$('.description').html('We build apps');
 })
+
+$('#projectHelp').sticky();
+
+$('#projectHelp').on('sticky-start', function() {
+	$('#projectHelp').html('Want us to work on your project? <a href="#">Email Us</a>');
+})
+
+$('#projectHelp').on('sticky-end', function() {
+	$('#projectHelp').html('Want us to work on your project?');
+})
