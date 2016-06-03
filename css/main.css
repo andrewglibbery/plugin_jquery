@@ -338,4 +338,11 @@ footer {
   }
 }
 
+.header {
+  background-color: white;
+}
+
+.is-sticky .header {
+  background-color: black;
+}
 
